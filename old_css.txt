@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    background-color: #003542;
+}
+ul li{
+    height: 40px;
+    width: 200px;
+    background-color: #003542;
+    opacity: 0.9;
+    line-height: 40px;
+    font-size: 20px; 
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+ul li a:hover{
+    background-color: #de1fcb;
+}
+ul li ul {
+    display: flex;
+    flex-direction: column; /* Stack nested items vertically */
+   
+    top: 100%;
+    left: 0;
+    width: 100%;
+}
+ ul li ul li {
+    display: none;
+   
+}
+ul li:hover ul li {
+display: block;
+}

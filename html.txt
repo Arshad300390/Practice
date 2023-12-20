@@ -1,0 +1,109 @@
+IDE
+page structure -> tags(html <html lang="en"></html>, head, body)
+opening closing tags, self closing tags
+html 5
+meta tags, charset, seo, responsiveness
+headings h1 to h6
+paragaraph p
+line break br
+hyperlink refrence a href
+image img src alt height width
+//6/11/23
+title bar icon
+<link rel="icon" href="../images/109613.png" type="image/x-icon"> 
+tag vs attribute(additional information, not required quotes but w3c recoment quotes and lowercase attribute)
+absolute(with respect to external) vs relative(with respect to local) path
+we can use title in heading in paragaraph for extra information about to element 
+<p title="name paragraph">this is my name paragraph.</p>
+comments a line
+style attribue in an element
+style="background-color:powderblue;"
+format an element
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+<blockquote>,<q>, <abbr>, <address>, <cite>, and <bdo>
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<p>The HTML address element defines contact information (author/owner) of a document or article.</p>
+
+<address>
+Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+colors
+rgb(255, 99, 71) red green blue
+#ff6347
+hsl(9, 100%, 64%) hue(type of colors), saturation(intensity), and lightness(luminance how light or dark)
+hsla (9, 100%, 64%, 0.5)(alpa, level of transparency)
+
+in links 
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window
+
+//7/11/23
+_parent - Opens the document in the parent frame
+parent attribute used with iframe
+use of mail to attribute in link
+use of image in link
+<a href="mailto:someone@example.com">Send email</a>
+
+onclick event to open link /use button to open link
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+we can use title attribute for specific info in link 
+link to go specifi topic on page target with id
+use image from server img self closing tag
+
+map
+
+
+ <img src="../images/clock.png" alt="Workplace" usemap="#workmap" width="400" height="379">
+    
+<map name="workmap">
+      <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+</map> 
+
+
+
+background img
+<p style="background-image: url('img_girl.jpg');"> use of css
+
+favicon
+list unoderedlist odered list(marked with number by default) 
+discription list
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+horizontal ruler
+hr
+block vs inline element
+</dl>
+
+03468990471
+
+table
+//
+form action  method
+ 

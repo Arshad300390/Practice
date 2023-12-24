@@ -8,51 +8,39 @@
       margin: 0;
       font-family: Arial, sans-serif;
     }
+    nav{
+      background-color: antiquewhite;
+      padding: 10px;
+      width: 10%;
 
-    nav {
-      background-color: #333;
-      overflow: hidden;
     }
-
-    nav a {
-      float: left;
+    nav a{
       display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
+      padding: 10px;
       text-decoration: none;
     }
- nav a:link, nav a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-    nav a:hover {
-      background-color: #18bd4f;
-      color: rgb(192, 56, 56);
+    .dd{
+      display: none;
     }
-    nav a.active{
-        background-color: blue;
-        color: bisque;
-        cursor: move;
+     nav:hover .dd{
+      display: block;
     }
+    
   </style>
 </head>
 <body>
 
   <nav>
-    <a href="Home.html" >Home</a>
-    <a href="About.html" class="active">About</a>
-    <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
+    <a class="dis" href="">DropDown</a>
+    <div>
+    <a class="dd" href="Home.html" >Home</a>
+    <a class="dd" href="About.html" class="active">About</a>
+    <a class="dd" href="#services">Services</a>
+    <a class="dd" href="#contact">Contact</a>
+  </div>
+    
   </nav>
-  <a href="Home.html" >Home</a>
-  <!-- Your content goes here -->
-  <h1>about</h1>
+  
 
 </body>
 </html>
